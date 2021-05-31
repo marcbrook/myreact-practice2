@@ -1,0 +1,121 @@
+.userform-wrapper {
+    background: #F7F8F9;
+    position: relative;
+    .contact-box{
+        position: fixed;
+        top: 200px;
+        right: 0;
+    }
+    
+    .user-form-box {
+        width: 800px;
+        margin: 40px auto 40px auto;
+        background-color: white;
+        &:nth-child(1){
+            text-align: center;
+            font-family: PingFangSC-Regular;
+            font-size: 28px;
+            color: #000000;
+            p {
+              padding: 40px 0 40px 0;
+            }
+        }
+
+        .user-form{
+            // display: flex;
+            // flex-direction: column;
+            .user-form-label{
+                display: block;
+                position: relative;
+                .form-title {
+                    padding: 0 0 8px 0;
+                }
+                .form-vali {
+                    position: absolute;
+                    color: #F16D29;
+                    bottom: -30px;
+                }
+            }
+            font-family: PingFangSC-Regular;
+            font-size: 14px;
+            color: #333333;
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            width: 400px;
+            margin: 0 auto;
+            :nth-child(3) {
+                float: left;
+            }
+    
+            input[type=text],
+            textarea[type=text],
+            input[type=validation] {
+                width: 100%;
+                height: 34px;
+                margin-bottom: 30px;
+                border: 1px solid black;
+                padding-left: 10px;
+                font-size: 18px;
+                color: rgba(11, 49, 75, 0.603);
+                box-sizing: border-box;
+                
+            }
+            input[type=validation] {
+                width: 290px;
+            }
+            .validate-code-btn {
+                width: 100px;
+                height: 34px;
+                border: 1px solid #CCCCCC;
+                background-color: white;
+                border-radius: 3px;
+                border-radius: 3px;
+                margin-left: 10px;
+                margin-right: 0;
+                font-family: PingFangSC-Regular;
+                font-size: 14px;
+                color: #999999;
+                cursor: pointer;
+                &:hover {
+                    background-color: #F7F8F9;
+                }
+            }
+            ::placeholder {
+                font-family: PingFangSC-Regular;
+                font-size: 14px;
+                color: #999999;
+                
+            }
+            .form-asterisk {
+                color: crimson;
+            }
+            // .sub-form-label {
+            //     position: relative;
+            //     p {
+            //         padding: 0;
+            //         position: absolute;
+            //         color: coral;
+            //         bottom: 10px;
+            //     }
+            // }
+
+        }
+        .sub-btn {
+            width: 400px;
+            height: 42px;
+            background: #F16D29;
+            border: 1px solid #F16D29;
+            border-radius: 21px;
+            border-radius: 21px;
+            font-family: PingFangSC-Regular;
+            font-size: 16px;
+            color: #FFFFFF;
+            margin-bottom: 30px;
+            cursor: pointer;
+            &:hover {
+                background-color: #F16DF1;
+            }
+        }
+    }
+}

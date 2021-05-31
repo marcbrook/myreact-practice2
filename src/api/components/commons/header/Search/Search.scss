@@ -1,0 +1,22 @@
+.search-box {
+    form {
+        // positioning the search box
+        margin: 24px 0 24px 0;
+        input {
+            border-radius: 50px;
+            // setting the input border outline 
+            border: 1px solid #ccc;
+            //remove the default outline
+            outline: none;
+            // input size
+            width: 180px;
+            height: 32px;
+            // input placeholder
+            padding: 0 30px 0 20px;
+            background-image: url(../../../../assets/searchIcon@1x.png);
+            background-repeat: no-repeat;
+            // move the position shift to left 150px
+            background-position: 150px center;
+        }
+    }
+}

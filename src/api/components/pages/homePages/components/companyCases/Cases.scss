@@ -1,0 +1,100 @@
+.case-wrapper{
+    background: #F4F5F7;
+    box-shadow: inset 0 0 0 0 rgba(0,0,0,0.50);
+    .case-box-wrapper{
+        .xzcEF {
+            display: none;
+        }
+        .cGKbZh,
+        .ehkxHv {
+            margin: 10px;
+            background: #F4F5F7;
+        }
+
+        display: grid;
+        grid-template-columns: 1fr 1480px 1fr;
+        height: 408px;
+        // .arrow-box{
+        //     .left {
+        //         justify-content: right;
+        //     }
+        //     .arrow{
+        //         display: flex;
+        //         height: 100%;
+        //         align-items: center;
+        //         button {
+        //             border: none;
+        //             background: #F4F5F7;
+        //         }
+        //         &:hover a {
+        //             cursor: pointer;
+        //         }
+        //     }
+        // }
+        // .arrow-left{
+        //     grid-column: 1/2;  
+        // }
+        // .arrow-right {
+        //     grid-column: 3/4;
+        // }
+        .slide-container {
+            grid-column: 2/3;
+            display: flex;
+            flex-wrap: nowrap;
+            overflow: hidden;
+            .case-carousel-box {
+                height: 408px;
+                margin: 0 20px 0 20px;
+                background: #FFFFFF;
+                box-shadow: 0 2px 4px 0 #D8D8D8;
+                border-radius: 10px;
+                border-radius: 10px;
+                
+                .case-article-box {
+                    width: 540px;
+                    padding: 63px 40px 20px 40px;
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    .case-carousel-header{
+                        grid-column: 1/3;
+                        font-family: PingFangSC-Semibold;
+                        color: #000000;
+                        :nth-child(1){
+                            font-weight: bolder;
+                            font-size: 20px;
+                        }
+                        :nth-child(2){
+                            font-size: 16px;
+                        }
+                    }
+                    .case-carousel-article{
+                        grid-column: 1/2;
+                        width: 300px;
+                        padding-top: 30px;
+                        margin-right: 20px;
+                        h5{
+                            font-family: PingFangSC-Regular;
+                            font-size: 16px;
+                            color: #999999;
+                            line-height: 32px;
+                        }
+                    } 
+                    .case-carousel-img {
+                        grid-column: 2/3;
+                        padding-top: 30px;
+                    }
+                    
+                }
+                
+                .case-carousel-btn {
+                    grid-column: 1/3;
+                    padding: 10px 0 0 30px;
+                }
+            }
+        }
+    }
+    .case-btn-box {
+        padding: 60px 0 60px 0;
+        text-align: center;
+    }
+}

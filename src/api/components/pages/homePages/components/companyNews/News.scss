@@ -1,0 +1,75 @@
+.news-wrapper-box{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    .news-box{
+        &:nth-child(1) {
+            margin-right: 30px;
+        }
+        &:nth-child(2) {
+            margin-left: 30px; 
+        }
+        .news-topics-box {
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 37px;
+            h1 {
+                font-family: PingFangSC-Regular;
+                font-size: 18px;
+                color: #000000;
+            }
+            .news-more-btn{
+                border: 1px solid #78CBF7;
+                border-radius: 14px;
+                border-radius: 14px;
+                background: #78CBF7 ;
+                width: 90px;
+                height: 28px;
+                font-family: PingFangSC-Regular;
+                font-size: 14px;
+                color: #FFFFFF;
+                display: flex;
+                img {
+                    padding: 5px 8px 6px 20px;
+                }
+                
+                &:hover{
+                    cursor: pointer;
+                    background-color: royalblue;
+                    border-color: royalblue;
+                }
+                
+            }
+        }
+        .news-titles-box {
+            padding-bottom: 52px;
+            .news-title{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 8px 0 8px 0;
+                cursor: pointer;
+                .news-name a {
+                    ::before {
+                        content: url('./images/doubleArrow@1x.png');
+                    }                    
+                    h5 {
+                        font-family: PingFangSC-Regular;
+                        font-size: 14px;
+                        color: #000000;
+                    }
+                }
+                .news-date p {
+                    font-family: PingFangSC-Regular;
+                    font-size: 14px;
+                    color: #000000;
+                }
+                &:hover {
+                    a h5, p {
+                        color: #78CBF7;
+                    }
+                }
+            }
+        }
+    }
+}
+

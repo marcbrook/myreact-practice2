@@ -1,0 +1,95 @@
+.solution-wrapper {
+    //position: relative;
+    .contact-box{
+        position: absolute;
+        //position: fixed;
+        top: 700px;
+        right: 0;
+    }
+    .solution-box-wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        .sol-content-wrapper {
+           background: #FFFFFF;
+           box-shadow: 0 2px 4px 0 #D8D8D8;
+           border-radius: 10px;
+           border-radius: 10px;
+           position: relative;
+
+           .sol-content-btn {
+               position: absolute;
+               // 40px(button) + 37px(offset) = 77px
+               top: calc(100% - 77px);
+               padding-left: 30px;
+           }
+
+           .sol-content-box {
+            //    display: flex;
+            margin: 0 30px 97px 30px;
+                // solution topic
+                .content-topics {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    // display: grid;
+                    // grid-template-columns: repeat(3, fr);
+        
+                    h5{
+                        width: 50%;
+                        overflow: auto;
+                        
+                        img {
+                            height: 6px;
+                            width: 6px;
+                        }
+    
+                        a{
+                            text-decoration: none;
+                            font-family: PingFangSC-Regular;
+                            font-size: 14px;
+                            color: #666666;
+                            line-height: 28px;
+    
+                            &:hover {
+                                color: blue;  
+                            }
+                            &::before{
+                                content: " ";
+                            }
+                        }
+                        
+                    } 
+                }
+           }
+           &:nth-child(2) {
+            margin: 0 39px 0 39px;
+           }
+           // solution header
+           :nth-child(1) {
+            h2 {
+                font-family: PingFangSC-Semibold;
+                font-size: 18px;
+                color: #000000;
+                line-height: 24px;
+                margin: 30px 0 0 0;
+               }
+            }
+            // solution detail
+            :nth-child(2) {
+                p {
+                 font-family: PingFangSC-Regular;
+                 font-size: 14px;
+                 color: #999999;
+                 line-height: 24px;
+                 margin: 20px 0 20px 0;
+                }
+            }            
+        }
+    }
+    // the solution bottom button
+    .sol-btn-box {
+        padding: 60px 0 60px 0;
+        text-align: center;
+    }
+}
+

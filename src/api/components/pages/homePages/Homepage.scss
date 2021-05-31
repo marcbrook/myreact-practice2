@@ -1,0 +1,14 @@
+.home-wrapper{
+    grid-column: 1/4;
+    display: grid;
+    grid-template-columns: 1fr 1280px 1fr;
+    .banner-wrapper,
+    .case-wrapper {
+        grid-column: 1/4;
+    }
+    .solution-wrapper,
+    .news-wrapper {
+        grid-column: 2/3;
+    }
+}
+

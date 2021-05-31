@@ -1,0 +1,45 @@
+.footer-wrapper {
+    background: #042B46;
+    display: grid;
+    grid-template-columns: 1fr 1280px 1fr;
+    .footer-link-wrapper {
+        grid-column: 2/3;
+        margin: 43px 0 43px 0;
+        .footer-link-box{
+           display: grid;
+           grid-template-columns: repeat(6, 1fr);
+           .link-title h1{
+              font-family: PingFangSC-Regular;
+              font-size: 16px;
+              color: #FFFFFF;
+              padding-bottom: 20px;
+           }
+           .link-name h5 a{
+              font-family: PingFangSC-Regular;
+              font-size: 14px;
+              color: #C5C5C5;
+              line-height: 28px;
+              &:hover {
+                color: yellow;
+              }
+           }
+        }
+    }
+    .footer-box {
+        grid-column: 1/4;
+        .footer-copyright {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #021F33;
+            height: 48px;
+            p {
+              font-family: PingFangSC-Regular;
+              font-size: 14px;
+              color: #FFFFFF;
+              width:fit-content;
+            }
+        }
+    }
+    
+}

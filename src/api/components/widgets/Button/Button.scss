@@ -1,0 +1,36 @@
+.order-btn,
+.more-btn {
+    background: #F16D29;
+    border: #F16D29;
+    border-radius: 21px;
+    border-radius: 21px;
+    width: 140px;
+    height: 42px;
+    font-family: PingFangSC-Regular;
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 24px;
+    &:hover {
+        background-color: red;
+        border: red;
+        cursor: pointer;
+    }
+}
+
+.sol-btn,
+.case-btn {
+    border: 1px solid #78CBF7;
+    border-radius: 23px;
+    border-radius: 23px;
+    background: #FFFFFF;
+    width: 114px;
+    height: 42px;
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #78CBF7;
+    &:hover {
+        background-color: blue;
+        border: blue;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,23 @@
+.content-header {
+    grid-column: 1/4;
+    padding-top: 60px;
+    
+    :nth-child(1){
+        
+        // located in the center
+        text-align: center;
+        
+        h1 {
+         font-family: PingFangSC-Semibold;
+         font-size: 28px;
+         color: #000000;
+         font-weight: bolder;
+        }
+    }
+    :nth-child(2){
+        height: 4px;
+        width: 64px;
+        background-color: #F16D29;
+        margin: 10px auto 40px auto;
+    }
+ }

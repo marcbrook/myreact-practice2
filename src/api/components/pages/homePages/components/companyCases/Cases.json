@@ -1,0 +1,26 @@
+[
+    {
+        "title": "快消零售\nFMCG and Retail",
+        "url":"/customer/retail",
+        "detail": "Levis致力于打造富有多样性及包容性的工作团队，帮助我们营造出各种文化、风格和观点相互交融的工作气氛，People+平台兼顾了实用与视觉的双重高标准，实现了Levis无纸化办公日常。",
+        "pic":"./images/pic4@1x.png"
+    },
+    {
+        "title": "教育培训\nEducation and training",
+        "url":"/customer/education",
+        "detail": "人事系统帮助机构提高了企业人力资源管理的水平和工作效率。完成了审批流程标准化、员工操作便捷化、数据管理集中化的项目目标。",
+        "pic":"./images/pic5@1x.png"
+    },
+    {
+        "title": "互联网\nFMCG and Retail",
+        "url":"/customer/fmgg",
+        "detail": "很好地进行人力资源管理，其中包含薪酬/流程/员工主数据。在实施过程中，国际化及汇报链是难点，同时还能很好地客制化达到要求，成为必推的系统供应商。",
+        "pic":"./images/pic6@1x.png"
+    },
+    {
+        "title": "旅游行业\nTourism industry",
+        "url":"/customer/tourism",
+        "detail": "数字化产品在两个月就完成了系统实施与测试，上线了上千名员工；不只是薪酬计算，完全符合客户可持续发展理念，帮助客户实现了无纸化办公。",
+        "pic":"./images/pic7@1x.png"
+    }
+]

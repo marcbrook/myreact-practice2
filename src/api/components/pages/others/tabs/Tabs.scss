@@ -1,0 +1,28 @@
+.tab-container {
+    position: relative;
+    margin: auto;
+    width: 600px;
+    background-color: red;
+    margin-top: 30px;
+    .tab-content {
+        height: 500px;
+        .tab-content-box {
+            height: 450px;
+            margin: 20px;
+            background-color: rosybrown;
+        }
+    }
+    .hline{
+        position: absolute;
+        left: -700px;
+        .header-nav-bar-line {
+            height: 4px;
+            width: 64px;
+            background-color: #F16D29;
+            margin: 0 auto 0 113px;
+            align-content: center;
+        }
+    }
+    
+    
+}

@@ -1,0 +1,112 @@
+[
+    {
+        "title": "产品",
+        "linklist":[
+            {
+                "name": "一站式人力资源管理",
+                "link": "/product"
+            },
+            {
+                "name": "一体化薪税管理平台",
+                "link": "/product"
+            },
+            {
+                "name": "智能大数据平台",
+                "link": "/product"
+            }
+        ]
+    },
+    {
+        "title": "服务",
+        "linklist":[
+            {
+                "name": "薪酬社保外包服务",
+                "link": "/product"
+            },
+            {
+                "name": "全面薪酬",
+                "link": "/product"
+            },
+            {
+                "name": "客户成功",
+                "link": "/product"
+            }
+        ]
+    },
+    {
+        "title": "合作伙伴",
+        "linklist":[
+            {
+                "name": "合作加盟",
+                "link": "/product"
+            }
+        ]
+    },
+    {
+        "title": "资源",
+        "linklist":[
+            {
+                "name": "客户案例",
+                "link": "/product"
+            },
+            {
+                "name": "行业报告",
+                "link": "/product"
+            },
+            {
+                "name": "HR大咖说",
+                "link": "/product"
+            },
+            {
+                "name": "客户成功",
+                "link": "/product"
+            },
+            {
+                "name": "认证培训",
+                "link": "/product"
+            }
+        ]
+    },
+    {
+        "title": "关于我们",
+        "linklist":[
+            {
+                "name": "公司简介",
+                "link": "/product"
+            },
+            {
+                "name": "团队介绍",
+                "link": "/product"
+            },
+            {
+                "name": "成长历程",
+                "link": "/product"
+            },
+            {
+                "name": "加入易路",
+                "link": "/product"
+            }
+        ]
+    },
+    {
+        "title": "联系我们",
+        "linklist":[
+            {
+                "name": "产品咨询",
+                "link": "/product"
+            },
+            {
+                "name": "技术支持",
+                "link": "/product"
+            },
+            {
+                "name": "售后服务",
+                "link": "/product"
+            },
+            {
+                "name": "投诉热线",
+                "link": "/product"
+            }
+        ]
+    }
+]

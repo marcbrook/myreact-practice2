@@ -1,0 +1,14 @@
+.header-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1280px 1fr;
+    .header-wrapper-box {
+       grid-column: 2/3;
+       display: flex;
+       .nav-logo-box {
+           margin: 18px 0 18px 0;
+           height: 44px;
+           width: 160px;
+       }
+    }
+}
+

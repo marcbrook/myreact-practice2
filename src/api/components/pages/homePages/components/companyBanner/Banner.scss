@@ -1,0 +1,34 @@
+.banner-wrapper {
+    background-image: url('../../../../../assets/banner@2x.png');
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr 1280px 1fr;
+    
+    .banner-content-box {
+        grid-column: 2/3;
+        padding: 107px 0 31px 0;
+        div:nth-child(1) h5 {
+           font-family: FZLTTHK--GBK1-0;
+           font-size: 40px;
+           color: #FFFFFF;
+           font-weight: bold;
+        }
+        div:nth-child(2) h5 {
+            font-family: FZLTXHK;
+            font-size: 36px;
+            color: #FFFFFF;
+            padding: 10px 0 26px 0;
+        }
+        div:nth-child(n+3) h5 {
+            font-family: PingFangSC-Regular;
+            font-size: 16px;
+            color: #FFFFFF;
+            line-height: 28px;
+        }
+    }
+    .banner-btn-box {
+        grid-column: 2/3;
+        padding: 20px 0 97px 0;
+        
+    }
+}
